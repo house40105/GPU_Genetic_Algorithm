@@ -1,0 +1,132 @@
+﻿已經開始建置於 2014/12/11 下午 01:19:06。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm.vcxproj"。
+     1>CudaClean:
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmpa4a9329ac23c4875bd75352e9e2281b7.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\kernel.cu" -clean
+         
+         C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\kernel.cu" -clean 
+         kernel.cu
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\user\AppData\Local\Temp\tmp257755b7dc674bd68088982c37470162.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\kernel.cu"
+         
+         C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\kernel.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(81): warning : variable "count" was declared but never referenced
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(276): warning : variable "data" was declared but never referenced
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(299): warning : statement is unreachable
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(349): warning : variable "p" was set but never used
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(588): warning : variable "S1" was declared but never referenced
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(588): warning : variable "S2" was declared but never referenced
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(948): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(1984): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(2932): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(3882): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(4853): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(5899): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(6842): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(7786): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(8712): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(9705): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(10766): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(81): warning : variable "count" was declared but never referenced
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(276): warning : variable "data" was declared but never referenced
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(299): warning : statement is unreachable
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(349): warning : variable "p" was set but never used
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(588): warning : variable "S1" was declared but never referenced
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(588): warning : variable "S2" was declared but never referenced
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         kernel.cu
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(135): warning C4244: '引數' : 將 'time_t' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(276): warning C4101: 'data' : 未參考的區域變數
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(753): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(755): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(756): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(757): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(759): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(760): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(761): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(762): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(764): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(765): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(766): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(767): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(769): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(770): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(771): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>C:/Users/user/documents/visual studio 2012/Projects/GPU_Genetic_Algorithm/GPU_Genetic_Algorithm/kernel.cu(772): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\GPU_Genetic_Algorithm.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\GPU_Genetic_Algorithm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\GPU_Genetic_Algorithm.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         GPU_Genetic_Algorithm.vcxproj -> C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\GPU_Genetic_Algorithm.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+         複製了         2 個檔案。
+     1>專案 "C:\Users\user\documents\visual studio 2012\Projects\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm\GPU_Genetic_Algorithm.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.30
